@@ -1,0 +1,40 @@
+
+  body{
+    margin: 0;
+  }
+  h1{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  ol{
+    font-style: italic;
+    font-size: 15px;
+    border-right: 1px solid gray;
+    width: 130px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 180px 1fr;
+  }
+  #grid ol{
+    padding-left: 50px;
+  }
+  #grid #article{
+    padding-left: 5px;
+  }
+  #article{
+    text-align: center;
+  }
